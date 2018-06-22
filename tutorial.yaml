@@ -1,0 +1,5 @@
+title: "Your First Node App: Rotten Potatoes"
+cover: cover.jpg
+# solution_url: https://github.com/MakeSchool-Tutorials/Tutorial-Template/
+teaser_text: |
+    Clone Rotten Tomatoes by creating a Node app backed with MongoDB.
