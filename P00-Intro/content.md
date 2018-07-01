@@ -15,7 +15,7 @@ Throughout the rest of this tutorial series, we'll place more emphasis on learni
 
 To recap from the _How the Internet Works_ tutorial, a web application is a computer program that's running on a web server.
 
-A web app will receive HTTP requests from clients (web browsers, mobile phones, smart fridges.) After processing the request, it'll perform some logic based on code you write and return a response to the client.
+A web app will receive HTTP requests from clients (web browsers, mobile phones, smart fridges). After processing the request, it'll perform some logic based on code you write and return a response to the client.
 
 ![Backend Focus](assets/backend_focus.jpg)
 
@@ -69,4 +69,4 @@ By the end of this tutorial, you will:
 
 # If You Get Stuck
 
-Getting stuck when coding (and debugging) is a natural part of the programming process. If you find yourself stuck on a problem or lost, pause for a moment and take a breath. Maybe take a walk. Then retrace your steps (in the tutorial, not the walk.) Make sure you've follow each step of the tutorial. It's easy to make typos or to accidentally skip over important steps.
+Getting stuck when coding (and debugging) is a natural part of the programming process. If you find yourself stuck on a problem or lost, pause for a moment and take a breath. Maybe take a walk. Then retrace your steps (in the tutorial, not the walk). Make sure you've follow each step of the tutorial. It's easy to make typos or to accidentally skip over important steps.

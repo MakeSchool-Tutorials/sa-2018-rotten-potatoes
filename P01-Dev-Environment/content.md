@@ -205,7 +205,7 @@ If you look inside your _Tree View_, you'll see the `public/` folder that house 
 
 ![Public Directory](assets/public_dir.jpg)
 
-Go ahead and open your `style.css` file and delete the default CSS that comes in it your project (we'll be adding Bootstrap later.)
+Go ahead and open your `style.css` file and delete the default CSS that comes in it your project (we'll be adding Bootstrap later).
 
 > [action]
 >
