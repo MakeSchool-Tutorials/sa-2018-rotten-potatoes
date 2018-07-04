@@ -3,7 +3,7 @@ title: "Handlebars"
 slug: handlebars
 ---
 
-[Handlebars.js](https://handlebarsjs.com/) is one of many view engines that _Express_ supports.  Handlebars allows us to create our views, the HTML content, that will be display on each web page. In addition, it provides with many useful handy features that allow us to embed handlebars expressions and build re-usble HTML.
+[Handlebars.js](https://handlebarsjs.com/) is one of many view engines that _Express_ supports.  Handlebars allows us to create our views, the HTML content, that will be display on each web page. In addition, it provides many useful handy features that allow us to embed handlebars expressions and build re-usable HTML.
 
 Throughout this tutorial series, we'll get familiar with Handlebars.js because it's ease of setup and similarity to vanilla HTML.
 
@@ -21,7 +21,7 @@ Open `views/index.hbs` from your project:
 
 You probably noticed that `views/index.hbs` doesn't include a lot of the standard boilerplate of a HTML document. It's missing a `<head>` element, the `<body>` tags, etc.
 
-However, if you inspect source of our 'Hello, World!' web page, you'll see that all of our boilerplate HTML exists: ![Hello World HTML](assets/hello_world_html.jpg)
+However, if you inspect source of our 'Hello, World!' web page, you'll see that our boilerplate HTML exists: ![Hello World HTML](assets/hello_world_html.jpg)
 
 What's going on here?
 
@@ -95,7 +95,7 @@ With Bootstrap set up, let's look at a feature named _Handlebars_ expressions th
 
 # Handlebars Expressions
 
-[Handlebars expressions](http://handlebarsjs.com/expressions.html) allow us to retreive and display data passed from a router. We've already made use of this feature as we implemented 'Hello, World!'
+[Handlebars expressions](http://handlebarsjs.com/expressions.html) allow us to retrieve and display data passed from a router. We've already made use of this feature as we implemented 'Hello, World!'
 
 ```
 <h1>{{greeting}}, {{title}}!</h1>
@@ -230,7 +230,7 @@ In `views/test.hbs`, add the following code to display our list of arrays:
 >
 ```
 <h1>Testing... 1, 2, 3. This is a {{data}}.</h1>
-
+>
 <ul>
   {{#each test_items}}
     <li>{{this.data}}</li>
@@ -250,7 +250,7 @@ In `views/test.hbs`, add the following `list-group` classes to our unordered lis
 >
 ```
 <h1>Testing... 1, 2, 3. This is a {{data}}.</h1>
-
+>
 <ul class="list-group list-group-flush">
   {{#each test_items}}
     <li class="list-group-item">{{this.data}}</li>
