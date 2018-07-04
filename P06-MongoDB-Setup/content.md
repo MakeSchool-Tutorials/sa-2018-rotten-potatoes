@@ -90,8 +90,8 @@ In `app.js`, add the following code near the bottom of the file, right above the
 //...
 >
 const mongoose = require('mongoose');
-const mongoURI = '(your mongodb URI)';
-
+const mongoURI = '(your mongodb URI)'; // NO PARENTHESES
+>
 // connect our app with our database
 mongoose.connect(mongoURI)
 mongoose.Promise = global.Promise;
@@ -117,8 +117,8 @@ mongodb://ms-user:makeschool@ds253879.mlab.com:53879/rotten-potatoes
 
 When you've got your database URI, replace the `mongoURI` placeholder.
 
-[action]
-> 
+> [action]
+>
 In `app.js`, replace your `mongoURI` with your mLab database URI that contains your credentials:
 >
 ```
