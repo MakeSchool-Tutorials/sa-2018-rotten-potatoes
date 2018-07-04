@@ -85,7 +85,7 @@ In `views/layout.hbs`, modify your HTML to the following:
 </html>
 ```
 >
-We added some extra meta tags, along with the stylesheet and scripts to support Bootstrap. Notice that our `{{{body}}}` code still remains as the first element within our `<body>` tags. We've also changed the content of our <title> element from using {{title}} to a static value of our web app's name.
+We added some extra meta tags, along with the stylesheet and scripts to support Bootstrap. Notice that our `{{{body}}}` code still remains as the first element within our `<body>` tags. We've also changed the content of our `<title>` element from using {{title}} to a static value of our web app's name.
 
 If you refresh your browser, you'll notice the update of our CSS.
 
