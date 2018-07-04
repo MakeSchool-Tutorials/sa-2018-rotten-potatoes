@@ -59,7 +59,7 @@ First, let's install the package.
 Install the `nodemon` package to your project:
 >
 ```
-npm install nodemon
+npm install -g nodemon
 ```
 
 > [info]
