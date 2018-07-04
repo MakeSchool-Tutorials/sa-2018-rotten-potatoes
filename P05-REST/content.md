@@ -26,23 +26,23 @@ In our codebase, we've already created two routes in `routes/index.js`. Let's ta
 
 ```
 //...
->
+
 router.get('/', function(req, res, next) {
   res.render('index', {
     greeting: "Aloha",
     title: "Chase"
   });
 });
->
+
 // ...
->
+
 router.get('/test', (req, res) => {
   res.render('test', {
     data: 'test',
     test_items: testArray
   })
 });
->
+
 // ...
 ```
 
@@ -298,6 +298,6 @@ Not too bad huh?
 
 Right now, all of our data is static test data from our `reviews` array in `routes/index.js`. In order to allow store and retrieve reviews, we'll need a place to store our _Review_ resource.
 
-Enter the database. 
+Enter the database.
 
 A database will allow us to add (**C**reate, retrieve (**R**ead), **U**pdate and **D**elete data. In the next section, we'll setup MongoDB so we'll be able to perform CRUD operations in our web app.

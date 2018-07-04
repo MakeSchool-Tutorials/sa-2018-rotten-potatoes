@@ -27,7 +27,7 @@ MongoDB is very popular within the JavaScript ecosystem for it's ease of use and
 1. Fill out the form to create a new account. Make sure you provide an email that you can verify as you'll need to in the next step. ![Create Account](assets/create_account.jpg)
 1. Verify your account by opening the verification email and clicking the link provided.
 1. Create a new _MongoDB Deployment_ by clicking the _Create New_ button in the top-right corner. ![Create New Database](assets/create_new_db.jpg)
-1. Set up your MongoDB configurations so that your _Cloud Provider_ is `Amazon Web Services` and your _Plan Type_ is `Sandbox`. When you're done, hit the _Continue_ button on the bottom right corner. ![Database Configurations](assets/db_configurations.jpg)
+1. Set up your MongoDB configurations so that your _Cloud Provider_ is `Amazon Web Services` and your _Plan Type_ is `Sandbox`. When you're done, hit the _Continue_ button in the bottom right corner. ![Database Configurations](assets/db_configurations.jpg)
 1. Set your AWS region to `US East (Virginia) (us-east-1)` and hit the _Continue_ button. ![AWS Region](assets/aws_region.jpg)
 1. Name your database `rotten-potatoes` and hit _Continue_. ![Name Database](assets/name_db.jpg)
 1. Finally, review and confirm your _order_ to setup your new database. ![Database Confirm](assets/db_confirm.jpg)
@@ -56,13 +56,13 @@ Create a _Database User_ for your database:
 >
 1. Switch to the _Users_ tab of your database. ![Users Tab](assets/users_tab.jpg)
 1. On the _Users_ tab, click the _Add database user_ button. ![Add DB User](assets/add_db_user.jpg)
-1. Enter a username (i.e. `ms-user`) and password (i.e `makeschool`) of your choice. Make sure you write your credidentials down. You'll need this for later! When you're finished, hit _Create_. ![New User Form](assets/new_user_form.jpg)
+1. Enter a username (i.e. `ms-user`) and password (i.e `makeschool`) of your choice. Make sure you write your credentials down. You'll need this for later! When you're finished, hit _Create_. ![New User Form](assets/new_user_form.jpg)
 
 When you're done, you should see our new database user and the previous warning will be gone.
 
 ![New User Success](assets/new_user_success.jpg)
 
-With our new _database user_, we can use the credidentials to connect our _Express_ app.
+With our new _database user_, we can use the credentials to connect our _Express_ app.
 
 # Connecting Express to MongoDB
 
