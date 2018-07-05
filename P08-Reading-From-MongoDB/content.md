@@ -189,12 +189,10 @@ router.post('/reviews', (req, res) => {
 
 Let's take our new web app for a test run. Create a new movie review.
 
-You should see the following:
+You should see the following (left side):
 
 ![Show Path 1](assets/show_path_1.jpg)
 
-Next, let's click the any of the _Read More_ buttons on our homepage. As expected, we'll see:
-
-![Show Path 2](assets/show_path_2.jpg)
+Next, let's click any of the _Read More_ buttons on our homepage. As expected you should now see more details (right side of image above).
 
 Congrats! You've finished implemented all of the features for your first web app. In the next section, we'll review what we learned and talk about where to go next.
