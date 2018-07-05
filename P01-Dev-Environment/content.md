@@ -5,7 +5,7 @@ slug: dev-env
 
 To start, we'll setup our developer environment and create a new project. We'll build our web app using the Node.js and Express.js frameworks.
 
-# Node.js? Express..? 
+# Node.js? Express..?
 
 When you're beginning, it's easy to get confused by all the different technologies, frameworks and what each of them do.
 
@@ -88,8 +88,14 @@ Next, we'll need to install all of the NPM packages within our project.
 >
 Install all of your project's NPM packages:
 >
-1. Navigate into your new project directory by typing `cd rotten_potatoes/`
+1. Navigate into your new project directory by typing `cd path_to/rotten_potatoes/` (and making sure you enter the actual path to your folder)
 1. Install all of your project's NPM packages using `npm install`
+
+<!--  -->
+
+> [info]
+>
+> In general, we will be giving Unix directions that will work well on macOS and Linux. If you need help translating Unix -> Windows command prompt, check out (this resource)[https://www.lemoda.net/windows/windows2unix/windows2unix.html].
 
 When you're done, open your project directory with your _Atom_ text editor.
 
