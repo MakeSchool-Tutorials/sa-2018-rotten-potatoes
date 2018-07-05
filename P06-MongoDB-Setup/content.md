@@ -107,7 +107,7 @@ Back in your mLab's `rotten-potatoes` database, you'll notice the following mess
 
 ![Database URI](assets/database_uri.jpg)
 
-We'll need to replace the `mongoURI` constant in our `app.js` file with the URI provided by mLab. In the example above, our URI is `mongodb://<dbuser>:<dbpassword>@ds253879.mlab.com:53879/rotten-potatoes`. However, you'll notice that URI contains placeholders for our credentials (`<dbuser>` and `<dbpassword>`).
+We'll need to replace the `mongoURI` constant in our `app.js` file with the URI provided by mLab. In the example above, our URI is `mongodb://<dbuser>:<dbpassword>@ds253879.mlab.com:53879/rotten-potatoes`. However, you'll notice that URI contains placeholders for our credentials (`<dbuser>` and `<dbpassword>`). **You may run into a weird bug if your password contains special characters.**
 
 We'll need to replace `<dbuser>` and `<dbpassword>` with our _database user's_ username and password respectively. For example, if your _database user_ had a password of `ms-user` and a password of `makeschool`, your database URI would be the following:
 

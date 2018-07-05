@@ -5,7 +5,7 @@ slug: reading-from-mongodb
 
 To wrap up our review website, we'll learn how to read (retrieve) reviews from our database. After all, it's not much use storing data if you can't access it again.
 
-To read review data from our database, we'll need to build a query. A query allows you to read data from your database. You can add filters to your query to specify details about the data you want to retrieve. 
+To read review data from our database, we'll need to build a query. A query allows you to read data from your database. You can add filters to your query to specify details about the data you want to retrieve.
 
 In this tutorial, we'll focus on the two simplest queries: querying all and querying a single item by ID.
 
@@ -86,7 +86,7 @@ router.get('/reviews/:id', (req, res) => {
 Breaking down our new route step-by-step:
 >
 1. We create a new route that takes an GET request with the URL path `/reviews/:id`. This is a special URL path because it has the `:id` value in it. This ID corresponds to the Id of the review we want to display.
-1. Use the `mongoose` model's `.findById` to query the database for a record with the given Id. 
+1. Use the `mongoose` model's `.findById` to query the database for a record with the given Id.
 1. Once we read the data from our database, if there are no errors, we display the review in a new `reviews/show` template.
 
 We'll need to create a new `views/reviews/show` Handlebars template for our new route.
@@ -143,7 +143,7 @@ On our homepage, let's add a _Read More_ button to each of our movie review card
 
 > [action]
 >
-In `views/index`, add the following `<a>` element within your `.card-body` `<div>`.
+In `views/reviews/index`, add the following `<a>` element within your `.card-body` `<div>`.
 >
 ```
 // ...
