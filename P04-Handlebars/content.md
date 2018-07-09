@@ -50,6 +50,8 @@ Pay attention in particular to the handlebars expression `{{{body}}}`. This is w
 
 The HTML content of `index.hbs` is subsituted for `{{{body}}}` within `layout.hbs`.
 
+Because this `{{{body}}}` expression is *built into handlebars*, we don't need to do any extra work on our part. Handlebars handles it for us.
+
 ![Layout Body](assets/layout_body.png)
 
 This setup allows us to avoid repeating the same boilerplate HTML setup for each of our web pages. Let's go ahead and take this chance to add Bootstrap to our project.
