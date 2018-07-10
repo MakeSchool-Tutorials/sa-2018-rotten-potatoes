@@ -248,7 +248,7 @@ Check that your data has saved to your database:
 >
 1. Go to mLab's homepage in your browser by [clicking here](https://mlab.com/home). Sign into your account if needed.
 1. On your mLab's home screen, click on your `rotten-potatoes` database. ![Click Database](assets/click_database.jpg)
-1. Inside your database, you should see a new _Collection_ named _reviews_. This is your _Review_ model data. Click on it. ![Reviews Collection]
+1. Inside your database, you should see a new _Collection_ named _reviews_. This is your _Review_ model data. Click on it. ![Reviews Collection](assets/reviews_collection.jpg)
 >
 Within your _Review Collection_, you'll see all of the data for your reviews stored in JSON format: ![Reviews Data](assets/reviews_data.jpg)
 
