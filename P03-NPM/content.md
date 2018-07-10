@@ -23,7 +23,7 @@ Open `package.json` from your project's root directory:
 >
 ```
 /* ... */
-
+>
 "dependencies": {
   "cookie-parser": "~1.4.3",
   "debug": "~2.6.9",
@@ -32,7 +32,7 @@ Open `package.json` from your project's root directory:
   "http-errors": "~1.6.2",
   "morgan": "~1.9.0"
 }
-
+>
 /* ... */
 ```
 >
