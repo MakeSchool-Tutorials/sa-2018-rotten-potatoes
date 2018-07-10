@@ -7,7 +7,7 @@ Although we've set up our database, we've yet to test it. In this section, we'll
 
 # Building our Review Model
 
-First, we'll a new data model to represent our movie review data. Whenever we want to represent data within our MongoDB database, we'll need to create a model for it. In this case, our model will be our _Review_ resource.
+First, we'll need a new data model to represent our movie review data. Whenever we want to represent data within our MongoDB database, we'll need to create a model for it. In this case, our model will be our _Review_ resource.
 
 Our _Review_ model will have the following properties:
 
@@ -177,7 +177,7 @@ In `views/reviews`, create a new file named `new.hbs`. Add the following code wi
 >
             <div class="form-group">
                 <label for="reviewBody">Your Review</label>
-                <textarea name="body" class="form-control" id="reviewBody" rows="3" placeholder="Don't be shy, unleash your inner movie critic..."></textarea> 
+                <textarea name="body" class="form-control" id="reviewBody" rows="3" placeholder="Don't be shy, unleash your inner movie critic..."></textarea>
             </div>
 >
             <button type="submit" class="btn btn-primary">Post Review</button>
@@ -190,7 +190,7 @@ Inside our `views/new.hbs` template, we've added a `<form>` element that provide
 
 # Writing (Creating) Data to MongoDB
 
-First, we'll need to create a new route to handle our POST request. 
+First, we'll need to create a new route to handle our POST request.
 
 > [action]
 >
@@ -219,7 +219,7 @@ Let's break down this code step-by-step:
 1. We create a new function for handling the POST request at the `/reviews` URL path from our new review form.
 1. We create a new review using our _Review_ model.
 1. We use the `.save` function to save our new model in our database.
-1. After the our new review is saved in our database, if there is no error, redirect to our root index `/` path.
+1. After our new review is saved in our database, if there is no error, redirect to our root index `/` path.
 
 To use the `Review` model, we'll need to define it as a constant in our `routes/index.js`.
 

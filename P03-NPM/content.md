@@ -66,7 +66,7 @@ npm install -g nodemon
 
 > [info]
 >
-Typically, nodemon is installed with the `-g` or `--save-dev` flags so that it is available in all projects. We won't these flags for simplicity, but if you're interested you can read more [here](https://stackoverflow.com/questions/22891211/what-is-the-difference-between-save-and-save-dev) and [here](http://imcodebased.com/npm-save-or-save-dev-which-one-to-use/).
+Typically, nodemon is installed with the `-g` or `--save-dev` flags so that it is available in all projects. We won't use these flags for simplicity, but if you're interested you can read more [here](https://stackoverflow.com/questions/22891211/what-is-the-difference-between-save-and-save-dev) and [here](http://imcodebased.com/npm-save-or-save-dev-which-one-to-use/).
 
 # Running Nodemon
 

@@ -13,7 +13,7 @@ We can't learn about REST without learning about some of it's key terminology, s
 
 A REST resource refers to an object that is an abstraction of data. Some common examples might include users, blog posts and in our case, movie reviews.
 
-With each resource, we'll need to be able perform _CRUD_ operations. _CRUD_ is an abbreviation for Create, Read, Update, Delete. Let's say your web app had a _User_ resource. You'd want to support the following CRUD operations:
+With each resource, we'll need to be able perform to _CRUD_ operations. _CRUD_ is an abbreviation for Create, Read, Update, Delete. Let's say your web app had a _User_ resource. You'd want to support the following CRUD operations:
 
 - Create: Creating new users
 - Read: Retrieving and displaying data of existing users
@@ -85,7 +85,7 @@ Rotten Potatoes is a website of movie reviews. We'll be able to create new revie
 
 > [challenge]
 >
-What do you the _resource_ of our web app is going to be?
+What do you think the _resource_ of our web app is going to be?
 
 <!-- break -->
 

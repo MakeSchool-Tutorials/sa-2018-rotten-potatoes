@@ -5,7 +5,7 @@ slug: hello-world
 
 So you've created a new project and got it up and running. But how does it work?
 
-In the previous section, we've went through out new project, but we never discussed the inner workings of what's going on when we navigate to `localhost:3000` and see the following:
+In the previous section, we've went through our new project, but we never discussed the inner workings of what's going on when we navigate to `localhost:3000` and see the following:
 
 ![Default Homepage](assets/default_homepage.jpg)
 
@@ -23,7 +23,7 @@ Hypertext Transfer Protocol (HTTP) is specification of standarized rules (protoc
 
 ## What's in a HTTP Request?
 
-Let's breakdown a HTTP request to see what information is begin sent to our back-end.
+Let's breakdown a HTTP request to see what information is being sent to our back-end.
 
 ![Raw HTTP Request](assets/raw_http_request.jpg)
 
@@ -157,7 +157,7 @@ Take a look:
 
 res.render('index', { title: 'Express' });
 
-// ... 
+// ...
 ```
 
 <!-- break -->
@@ -233,7 +233,7 @@ If you look at the line of code within our callback that renders the `index` tem
 
 res.render('index', { title: 'Express' });
 
-// ... 
+// ...
 ```
 
 Let's take a look at how this works by passing this data to change the content of our HTML.
@@ -267,7 +267,7 @@ router.get('/', function(req, res, next) {
   res.render('index', { greeting: 'Hola', title: 'Express' });
 });
 >
-// ... 
+// ...
 ```
 
 Next, let's change our view to make use of the new `greeting` data passed to our template.

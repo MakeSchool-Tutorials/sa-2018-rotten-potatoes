@@ -152,7 +152,7 @@ In `views/reviews/index`, add the following `<a>` element within your `.card-bod
     <h4 class="card-title">{{this.title}}</h4>
     <p class="card-text">{{this.body}}</p>
 >
-    <a class="card-link" href="/reviews/{{this._id}}">Read More</a>
+    <a class="card-link" href="/reviews/{{this.id}}">Read More</a>
 </div>
 >
 // ...
@@ -182,7 +182,7 @@ router.post('/reviews', (req, res) => {
     }
 >
     // 1
-    return res.redirect('/reviews/' + review._id);
+    return res.redirect('/reviews/' + review.id);
   });
 });
 ```
